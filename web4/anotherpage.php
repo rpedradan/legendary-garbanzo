@@ -1,10 +1,10 @@
 <?php
-    if(isset($_COOKIE['username'])){
-        echo 'User '. $_COOKIE['username'] . ' is set<br>';
+    if(isset($_COOKIE['auth'])){
+        echo 'Cookie '. $_COOKIE['auth'].' is set.<br>';
     } else {
-        echo 'User is not set';
+        echo 'Cookie is not set.<br>';
     }
-?>
+    ?>
 
 <html lang="en">
 <head>
